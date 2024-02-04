@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    color: black;
+    overflow-x: hidden;
+}
+
+.bienvenida {
+    background-image: url(../asets/imagenes/butterflies.png);
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#electro {
+    background-image: url(../asets/imagenes/masaje\ electroes.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    color: #cc00ff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Lampara {
+    background-image: url(../asets/imagenes/lampara.jpg); /*cambiar esta imagen por una de mejor calidad*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Circu {
+    background-image: url(../asets/imagenes/belleza-spa.png); /*cambiar esta imagen por una mas chica*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#manual {
+    background-image: url(../asets/imagenes/masaje\ manual2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#madera {
+    background-image: url(../asets/imagenes/maderoterapia2.png.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    color: brown;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#relajante {
+    background-image: url(../asets/imagenes/masaje-relajante.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#grasa {
+    background-image: url(../asets/imagenes/quita\ grasa.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#piedras {
+    background-image: url(../asets/imagenes/piedras.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Drenaje {
+    background-image: url(../asets/imagenes/drenaje.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    max-height: 80px;
+    transition: filter 0.3s ease-in-out; 
+}
+
+.navbar-brand img:hover {
+    filter: brightness(120%); 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(118, 118, 201);
+}
+
+.card {
+    background-color: #ff00aa;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.card:hover {
+    background-color: #ff66cc; 
+    transform: scale(1.05); 
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+.btn:hover {
+    background-color: #cc00ff; 
+    color: #ffffff; 
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+}
+
+.form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:hover {
+    border-color: #4285f4;
+}
+
+input[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2559a7;
+}
+.col-md-6 {
+    width: 50%;
+}
+
+#turnos-container {
+    display: none;
+}
+
+h3 {
+    color: #4285f4;
+}
+h1{
+    text-align: center;
+}
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+#contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#contacto a {
+    text-decoration: none;
+}
+
+#contacto img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease; /* Agrega una transición suave al efecto hover */
+}
+
+#contacto a:hover img {
+    transform: scale(1.2); /* Agranda la imagen al pasar el ratón sobre ella */
+}
+
+@media only screen and (max-width: 700px) {
+    #contacto {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    #contacto a {
+        margin-bottom: 5px;
+    }
+}
