@@ -16,7 +16,7 @@
 }
 
 #electro {
-    background-image: url(../../asets/imagenes/electro.jpg);
+    background-image: url(../asets/imagenes/electro.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 500px;
@@ -26,7 +26,7 @@
 }
 
 #Lampara {
-    background-image: url(../../asets/imagenes/lampara.jpg);
+    background-image: url(../asets/imagenes/lampara.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 400px;
@@ -35,7 +35,7 @@
 }
 
 #Circu {
-    background-image: url(../../asets/imagenes/circulatorio.jpg);
+    background-image: url(../asets/imagenes/circulatorio.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 400px;
@@ -44,7 +44,7 @@
 }
 
 #manual {
-    background-image: url(../../asets/imagenes/descontracturante.jpg);
+    background-image: url(../asets/imagenes/descontracturante.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 500px;
@@ -55,7 +55,7 @@
 }
 
 #madera {
-    background-image: url(../../asets/imagenes/maderoterapia.jpg);
+    background-image: url(../asets/imagenes/maderoterapia.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 500px;
@@ -66,7 +66,7 @@
 }
 
 #relajante {
-    background-image: url(../../asets/imagenes/relajante.jpg);
+    background-image: url(../asets/imagenes/relajante.jpg);
     @include flex(center, column, center, center);
     height: 500px;
     text-align: center;
@@ -76,7 +76,7 @@
 }
 
 #grasa {
-    background-image: url(../../asets/imagenes/linfatico.jpg);
+    background-image: url(../asets/imagenes/linfatico.jpg);
     @include flex(center, column, center, center);
     height: 500px;
     text-align: center;
@@ -86,7 +86,7 @@
 }
 
 #piedras {
-    background-image: url(../../asets/imagenes/piedras.jpg);
+    background-image: url(../asets/imagenes/piedras.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 500px;
@@ -97,7 +97,7 @@
 }
 
 #Drenaje {
-    background-image: url(../../asets/imagenes/drenaje.jpg);
+    background-image: url(../asets/imagenes/drenaje.jpg);
     @include flex(center, column, center, center);
     background-size: cover;
     height: 500px;
