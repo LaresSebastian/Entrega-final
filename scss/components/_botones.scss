@@ -1,0 +1,11 @@
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+.btn:hover {
+    background-color: #cc00ff; 
+    color: #ffffff; 
+}
+/*Hacer en Javascript que segun los botones que uno precione le muestre un contenido u otro*/

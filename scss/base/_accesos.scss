@@ -1,0 +1,114 @@
+.bienvenida {
+    background-image: url(https://i.pinimg.com/originals/79/de/72/79de729b90aa6ad3e05f207a4e2b0384.gif);
+    @include flex(start, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        height: 100vh;
+    }
+    
+    @media screen and (max-width: 798px) {
+        height: 600px;
+    }
+    background-size: cover;
+    color: yellow;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#electro {
+    background-image: url(../../asets/imagenes/tinified/electro.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 500px;
+    color: #cc00ff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Lampara {
+    background-image: url(../../asets/imagenes/tinified/lampara.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Circu {
+    background-image: url(../../asets/imagenes/tinified/circulatorio.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#manual {
+    background-image: url(../../asets/imagenes/tinified/descontracturante.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#madera {
+    background-image: url(../../asets/imagenes/tinified/maderoterapia.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 500px;
+    text-align:initial;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#relajante {
+    background-image: url(../../asets/imagenes/tinified/relajante.jpg);
+    @include flex(center, column, center, center);
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#grasa {
+    background-image: url(../../asets/imagenes/tinified/linfatico.jpg);
+    @include flex(center, column, center, center);
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#piedras {
+    background-image: url(../../asets/imagenes/tinified/piedras.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Drenaje {
+    background-image: url(../../asets/imagenes/tinified/drenaje.jpg);
+    @include flex(center, column, center, center);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*.maderot{
+    background-image: url(https://i.pinimg.com/originals/c0/8e/dc/c08edc5b4d3324379282997ab832f946.gif);
+    background-position: center;
+    background-size: cover;
+}*/

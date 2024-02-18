@@ -1,0 +1,25 @@
+@mixin flex($position,$direction, $justify, $aling){
+    display: flex;
+    background-position: $position;
+    justify-content: $justify;
+    flex-direction: $direction;
+    align-items: $aling;
+}
+/*una vez esten los horarios de duracion y los precios crear efecto de subida en cada tarjeta*/
+.card {
+    background-color: #4b85f1;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.card:hover {
+    background-color: #ff66cc; 
+    transform: scale(1.05); 
+}
+
+.card-body {
+    padding: 10px;
+}
