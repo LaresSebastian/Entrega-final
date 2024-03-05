@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 500px) {
   .offcanvas {
-    background-image: url("/asets/imagenes/tinified/logo.jpg");
+    background-image: url("../../asets/imagenes/tinified/logo.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -204,8 +204,10 @@ h1 {
 .mapa-responsive {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
+  height: 0;
   padding-top: 56.25%; /*16:9 Aspect Ratio (56.25% = 9/16 * 100%)*/
+  margin: auto; /* Con esto se centra en la pantalla */
 }
 
 .mapa-responsive iframe {
@@ -235,14 +237,13 @@ h1 {
     height: 100vh;
   }
 }
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 799px) {
   .bienvenida {
     height: 600px;
   }
 }
 
 #electro {
-  background-image: url(../asets/imagenes/tinified/electro.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -250,39 +251,74 @@ h1 {
   align-items: center;
   background-size: cover;
   height: 500px;
-  color: #cc00ff;
-  font-size: 2rem;
+  color: black;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #electro {
+    background-image: url(../../asets/imagenes/tinified/electro.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #electro {
+    background-image: url(../../asets/imagenes/tinified/electroestimula-cel.jpg);
+  }
 }
 
 #Lampara {
-  background-image: url(../asets/imagenes/tinified/lampara.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: black;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   background-size: cover;
   height: 400px;
-  font-size: 2rem;
   font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #Lampara {
+    background-image: url(../../asets/imagenes/tinified/lampara.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #Lampara {
+    background-image: url(../../asets/imagenes/tinified/lampara-calor-cel.jpg);
+  }
 }
 
 #Circu {
-  background-image: url(../asets/imagenes/tinified/circulatorio.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: black;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   background-size: cover;
   height: 400px;
-  font-size: 2rem;
   font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #Circu {
+    background-image: url(../../asets/imagenes/tinified/circulatorio.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #Circu {
+    background-image: url(../../asets/imagenes/tinified/circulatorio-cel.jpg);
+  }
 }
 
 #manual {
-  background-image: url(../asets/imagenes/tinified/relajante.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -292,12 +328,22 @@ h1 {
   height: 500px;
   text-align: center;
   color: black;
-  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #manual {
+    background-image: url(../../asets/imagenes/tinified/descontracturante.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #manual {
+    background-image: url(../../asets/imagenes/tinified/descontracturante-cel.jpg);
+  }
 }
 
 #madera {
-  background-image: url(../asets/imagenes/tinified/maderoterapia.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -305,14 +351,24 @@ h1 {
   align-items: center;
   background-size: cover;
   height: 500px;
-  text-align: initial;
+  text-align: center;
   color: black;
-  font-size: 1.5rem;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #madera {
+    background-image: url(../../asets/imagenes/tinified/maderoterapia.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #madera {
+    background-image: url(../../asets/imagenes/tinified/maderoterapia-cel.jpg);
+  }
 }
 
 #relajante {
-  background-image: url(../asets/imagenes/tinified/relajante.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -321,12 +377,22 @@ h1 {
   height: 500px;
   text-align: center;
   color: black;
-  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #relajante {
+    background-image: url(../../asets/imagenes/tinified/relajante.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #relajante {
+    background-image: url(../../asets/imagenes/tinified/relajante-cel.jpg);
+  }
 }
 
 #grasa {
-  background-image: url(../asets/imagenes/tinified/modelador.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -335,12 +401,22 @@ h1 {
   height: 500px;
   text-align: center;
   color: black;
-  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #grasa {
+    background-image: url(../../asets/imagenes/tinified/modelador.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #grasa {
+    background-image: url(../../asets/imagenes/tinified/linfatico-cel.jpg);
+  }
 }
 
 #piedras {
-  background-image: url(../asets/imagenes/tinified/piedras.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -350,12 +426,22 @@ h1 {
   height: 500px;
   text-align: center;
   color: black;
-  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
+}
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #piedras {
+    background-image: url(../../asets/imagenes/tinified/piedras.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #piedras {
+    background-image: url(../../asets/imagenes/tinified/piedras-caliente-cel.jpg);
+  }
 }
 
 #Drenaje {
-  background-image: url(../asets/imagenes/tinified/drenaje.jpg);
   display: flex;
   background-position: center;
   justify-content: center;
@@ -365,14 +451,19 @@ h1 {
   height: 500px;
   text-align: center;
   color: black;
-  font-size: 2rem;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  font-size: 3em;
   font-weight: bold;
 }
-
-.maderot {
-  background-image: url(https://i.pinimg.com/originals/c0/8e/dc/c08edc5b4d3324379282997ab832f946.gif);
-  background-position: center;
-  background-size: cover;
+@media screen and (max-width: 2440px) and (min-width: 800px) {
+  #Drenaje {
+    background-image: url(../../asets/imagenes/tinified/linfatico.jpg);
+  }
+}
+@media screen and (max-width: 799px) {
+  #Drenaje {
+    background-image: url(../../asets/imagenes/tinified/linfatico-cel.jpg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

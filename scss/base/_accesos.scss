@@ -5,7 +5,7 @@
         height: 100vh;
     }
     
-    @media screen and (max-width: 798px) {
+    @media screen and (max-width: 799px) {
         height: 600px;
     }
     background-size: cover;
@@ -16,99 +16,152 @@
 }
 
 #electro {
-    background-image: url(../../asets/imagenes/tinified/electro.jpg);
     @include flex(center, column, center, center);
+    @media  screen and (max-width: 2440px) and (min-width: 800px) {
+    background-image: url(../../asets/imagenes/tinified/electro.jpg);
+    }
+    @media screen and (max-width: 799px){
+    background-image: url(../../asets/imagenes/tinified/electroestimula-cel.jpg);
+    }
     background-size: cover;
     height: 500px;
-    color: #cc00ff;
-    font-size: 2rem;
+    color: black;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
+    text-align: center
 }
 
 #Lampara {
-    background-image: url(../../asets/imagenes/tinified/lampara.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px){
+        background-image: url(../../asets/imagenes/tinified/lampara.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/lampara-calor-cel.jpg);
+    }
+    color: black;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     background-size: cover;
     height: 400px;
-    font-size: 2rem;
     font-weight: bold;
+    text-align: center
 }
 
 #Circu {
-    background-image: url(../../asets/imagenes/tinified/circulatorio.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/circulatorio.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/circulatorio-cel.jpg)
+    }
+    color: black;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     background-size: cover;
     height: 400px;
-    font-size: 2rem;
     font-weight: bold;
+    text-align: center
 }
 
 #manual {
-    background-image: url(../../asets/imagenes/tinified/descontracturante.jpg);
     @include flex(center, column, center, center);
+    @media  screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/descontracturante.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/descontracturante-cel.jpg);
+    }
     background-size: cover;
     height: 500px;
     text-align: center;
     color: black;
-    font-size: 2rem;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
 }
 
 #madera {
-    background-image: url(../../asets/imagenes/tinified/maderoterapia.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/maderoterapia.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/maderoterapia-cel.jpg);
+    }
     background-size: cover;
     height: 500px;
-    text-align:initial;
+    text-align:center;
     color: black;
-    font-size: 1.5rem;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
 }
 
 #relajante {
-    background-image: url(../../asets/imagenes/tinified/relajante.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/relajante.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/relajante-cel.jpg);
+    }
     height: 500px;
     text-align: center;
     color: black;
-    font-size: 2rem;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
 }
 
 #grasa {
-    background-image: url(../../asets/imagenes/tinified/modelador.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/modelador.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/linfatico-cel.jpg);
+    }
     height: 500px;
     text-align: center;
     color: black;
-    font-size: 2rem;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
 }
 
 #piedras {
-    background-image: url(../../asets/imagenes/tinified/piedras.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/piedras.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/piedras-caliente-cel.jpg);
+    }
     background-size: cover;
     height: 500px;
     text-align: center;
     color: black;
-    font-size: 2rem;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
 }
 
 #Drenaje {
-    background-image: url(../../asets/imagenes/tinified/linfatico.jpg);
     @include flex(center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/linfatico.jpg);
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/linfatico-cel.jpg);
+    }
     background-size: cover;
     height: 500px;
     text-align: center;
     color: black;
-    font-size: 2rem;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    font-size: 3em;
     font-weight: bold;
 }
-
-/*.maderot{
-    background-image: url(https://i.pinimg.com/originals/c0/8e/dc/c08edc5b4d3324379282997ab832f946.gif);
-    background-position: center;
-    background-size: cover;
-}*/
