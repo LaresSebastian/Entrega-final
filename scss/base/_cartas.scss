@@ -6,15 +6,6 @@
     align-items: $aling;
 }
 /*una vez esten los horarios de duracion y los precios crear efecto de subida en cada tarjeta*/
-
-@mixin presentacion ($position,$direction,$backgroud,$heigt){
-    display: flex;
-    background-position: $position;
-    flex-direction: $direction;
-    background-size: $backgroud;
-    height: $heigt;
-}
-
 .card {
     background-color: #4b85f1;
     margin: 5px;

@@ -172,27 +172,3 @@
     font-size: 3em;
     font-weight: bold;
 }
-
-.presentacion1 {
-    @include presentacion(center, column, cover);
-    @media screen and (max-width: 2440px) and (min-width: 800px) {
-        background-image: url(../../asets/imagenes/tinified/descontracturante.jpg);
-        height: 500px;
-    }
-    @media screen and (max-width: 799px) {
-        background-image: url(../../asets/imagenes/tinified/descontracturante-cel.jpg);
-        height: 350px;
-    }
-}
-
-.presentacion2{
-    @include presentacion(center, column, cover);
-    @media screen and (max-width: 2440px) and (min-width: 800px) {
-        background-image: url(../../asets/imagenes/tinified/circulatorio.jpg);
-        height: 500px;
-    }
-    @media screen and (max-width: 799px){
-        background-image: url(../../asets/imagenes/tinified/circulatorio-cel.jpg);
-        height: 350px;
-    }
-}
