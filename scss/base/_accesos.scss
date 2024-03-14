@@ -6,7 +6,8 @@
     }
     
     @media screen and (max-width: 799px) {
-        height: 400px;
+        height: 691px;
+        width: 400px;
     }
     background-size: cover;
     color: white;
@@ -171,4 +172,53 @@
     text-shadow: 4px 4px 2px rgb(255, 255, 255);
     font-size: 3em;
     font-weight: bold;
+}
+
+#mmanual{
+    @include flex (center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/descontracturante.jpg);
+        height: 500px;
+    }
+@media screen and (max-width: 799px){
+    background-image: url(../../asets/imagenes/tinified/descontracturante-cel.jpg);
+    height: 350px;
+    }
+}
+
+
+#mmaderoterapia{
+    @include flex (center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/maderoterapia.jpg);
+        height: 500px;
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/maderoterapia-cel.jpg);
+        height: 350px;
+    }
+}
+
+#melectro{
+    @include flex (center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/electro.jpg);
+        height: 500px;
+    }
+    @media screen and (max-width: 799px){
+        background-image: url(../../asets/imagenes/tinified/electroestimula-cel.jpg);
+        height: 350px;
+    }
+}
+
+#mpiedras{
+    @include flex (center, column, center, center);
+    @media screen and (max-width: 2440px) and (min-width: 800px) {
+        background-image: url(../../asets/imagenes/tinified/piedras.jpg);
+        height: 500px;
+    }
+    @media screen and (max-width: 799px) {
+        background-image: url(../../asets/imagenes/tinified/piedras-caliente-cel.jpg);
+        height: 350px;
+    }
 }
