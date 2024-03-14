@@ -244,8 +244,7 @@ h1 {
 }
 @media screen and (max-width: 799px) {
   .bienvenida {
-    height: 691px;
-    width: 400px;
+    height: 500px;
   }
 }
 
